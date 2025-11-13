@@ -13,9 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseMySql(
     mysqlCstring , ServerVersion.AutoDetect(mysqlCstring)
 ));
 
-var app = builder.Build();
-
-
+var app = builder.Build(); 
 
 
 // Configure the HTTP request pipeline.
